@@ -9,4 +9,4 @@ ENV PASSWORD=""
 
 WORKDIR /config
 ENTRYPOINT ["esphome"]
-CMD ["/config", "dashboard"]
+CMD ["/config/esphome", "dashboard"]
